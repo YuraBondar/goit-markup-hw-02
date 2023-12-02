@@ -1,124 +1,203 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #FFFFFF;
-}
-
-
-
-
-a {
-  text-decoration: none
-  ;
-}
-ul {
-  list-style-type: none;
-  text-decoration: none;
-}
-
-
-.logo-black {
-  color: black;
-}
-
-.logo-light {
-  color: white;
-}
-
-.section-button {
-color: #434455;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; /* 19.6px */
-}
-.portfolio-title  {
-
-}
-
-
-.foto-item {
-
-}
-
-.service {
-
-}
-
-.short-descr {
-
+  background-color: #FFF;
 }
 
 .navigation {
-
+width: 1440px;
+height: 72px;
+flex-shrink: 0;
+border-bottom: 1px solid #E7E9FC;
+background: #FFF;
 }
-
-.menu {
-
-}
-
-.address {
-
-}
-
-.contacts {
-
-}
-
-.section-title {
-
-}
-
-.list-item {
-
-}
-.list-item-one {
-
-}
-
-.item-title {
-
-}
-
-.item-descr {
-
-}
-
-.main-content-team {
-
-}
-
-.title-two {
-
-}
-.list-item-two {
-
-}
-
-.item-descr-two {
-
-}
-
-.list-item-three {
-
-}
-
-.portfolio-item {
-
-}
-
-.portfolio-item-descr {
-
-}
-
-.footer {
-
-}
-
-.logo-two {
-
+.logo {
+color:  #4D5AE5;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 .logo-span {
-  
+color:  #2E2F42;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.menu {
+color: #2E2F42;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.32px;
+}
+
+.menu:hover {
+color: #4D5AE5;
+background-color: aqua;
+}
+
+.menu:active {
+color: #4D5AE5;
+}
+.address {
+width: 1440px;
+height: 72px;
+flex-shrink: 0;
+border-bottom: 1px solid  #E7E9FC;
+background:  #FFF;
+}
+.contacts {
+color:  #434455;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px;
+}
+.section-title {
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; 
+letter-spacing: 1.12px;
+background: #2E2F42;
+}
+.button {
+color:  #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.64px;
+border-radius: 4px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.button {
+    cursor: pointer;
+}
+.list-item {
+background: #FFF;
+}
+.list-item-one {
+display: flex;
+width: 264px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+.item-title {
+color: #2E2F42;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.4px;
+}
+.item-descr {
+color:  #434455;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px;
+}
+.main-content-team {
+  background: #F4F4FD;
+}
+.title-two {
+color: #2E2F42;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+.list-item-two {
+background: #F4F4FD;
+}
+.item-descr-two {
+color: #434455;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px;
+}
+.portfolio-title {
+color: #2E2F42;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+.list-item-three {
+  background: #FFF;
+}
+.portfolio-item {
+color: #2E2F42;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+}
+.portfolio-item-descr {
+color: #434455;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+.footer {
+background: #2E2F42;
+}
+.logo-two {
+color: #4D5AE5;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.logo-span-bottom {
+color:  #F4F4FD;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
