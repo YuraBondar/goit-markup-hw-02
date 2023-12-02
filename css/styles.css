@@ -1,8 +1,124 @@
-<!--example-->
- h1 {
-     color: orange;
- }
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+}
 
- p {
-     color: rgb(3, 23, 23);
- }
+
+
+
+a {
+  text-decoration: none
+  ;
+}
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+.logo-black {
+  color: black;
+}
+
+.logo-light {
+  color: white;
+}
+
+.section-button {
+color: #434455;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 19.6px */
+}
+.portfolio-title  {
+
+}
+
+
+.foto-item {
+
+}
+
+.service {
+
+}
+
+.short-descr {
+
+}
+
+.navigation {
+
+}
+
+.menu {
+
+}
+
+.address {
+
+}
+
+.contacts {
+
+}
+
+.section-title {
+
+}
+
+.list-item {
+
+}
+.list-item-one {
+
+}
+
+.item-title {
+
+}
+
+.item-descr {
+
+}
+
+.main-content-team {
+
+}
+
+.title-two {
+
+}
+.list-item-two {
+
+}
+
+.item-descr-two {
+
+}
+
+.list-item-three {
+
+}
+
+.portfolio-item {
+
+}
+
+.portfolio-item-descr {
+
+}
+
+.footer {
+
+}
+
+.logo-two {
+
+}
+.logo-span {
+  
+}
