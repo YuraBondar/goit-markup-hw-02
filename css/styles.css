@@ -8,8 +8,18 @@ body {
 flex-shrink: 0;
 background: #FFF;
 }
+
+.link-navi:active { 
+    color: #404BBF; 
+    text-decoration: underline; 
+} 
+ 
+.link-navi:hover, .link-navi:focus { 
+    color:#404bbf; 
+}
+
 .logo {
-color:  #4D5AE5;
+color:  #404bbf;
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
@@ -191,7 +201,7 @@ font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.2;
 letter-spacing: 0.32px;
 }
 .footer {
