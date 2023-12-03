@@ -67,7 +67,6 @@ background:  #FFF;
 font-style: normal;
 }
 
-
 .contacts:hover, .contacts:focus {
 color:#404bbf
 }
@@ -198,7 +197,7 @@ font-family: Roboto;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
-line-height: 1.5; 
+line-height: 1.2; 
 letter-spacing: 0.4px;
 }
 .portfolio-item-descr {
@@ -207,7 +206,7 @@ font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 1.2;
+line-height: 1.5;
 letter-spacing: 0.32px;
 }
 .footer {
