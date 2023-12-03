@@ -96,6 +96,9 @@ background-color: #404BBF;
 background-color: #404BBF;
 }
 
+.button:focus {
+  background-color: #404BBF;
+}
 
 .button {
     cursor: pointer;
@@ -127,7 +130,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .main-content-team {
-  background: #F4F4FD;
+background: #F4F4FD;
 }
 .title-two {
 color: #2E2F42;
@@ -136,12 +139,13 @@ font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 40px; 
+line-height: 1.11; 
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
+
 .list-item-two {
-background: #F4F4FD;
+background-color: #FFFFFF;
 }
 .item-descr-two {
 color: #434455;
