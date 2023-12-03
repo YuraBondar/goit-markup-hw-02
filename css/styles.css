@@ -46,6 +46,12 @@ background-color: aqua;
 .menu:active {
 color: #404bbf;
 }
+
+.main-sec {
+background-color: #2e2f42;
+
+}
+
 .address {
 flex-shrink: 0;
 background:  #FFF;
@@ -87,7 +93,7 @@ background-color: #404BBF;
 }
 
 .button:active {
-color: #404BBF;
+background-color: #404BBF;
 }
 
 
@@ -100,7 +106,7 @@ color: #404BBF;
 background: #FFFFFF;
 }
 .list-item-one {
-display: flex;
+
 }
 .item-title {
 color: #2e2f42;
@@ -159,7 +165,7 @@ letter-spacing: 0.72px;
 text-transform: capitalize;
 }
 .list-item-three {
-  background: #FFF;
+background-color: #FFFFFF;
 }
 .portfolio-item {
 color: #2E2F42;
@@ -167,7 +173,7 @@ font-family: Roboto;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px; /* 120% */
+line-height: 1.11; 
 letter-spacing: 0.4px;
 }
 .portfolio-item-descr {
