@@ -109,8 +109,13 @@ background-color: #404BBF;
 background: #FFFFFF;
 }
 .list-item-one {
-
+  font-size: 20px; 
+  font-weight: 500; 
+  line-height: 1.2; 
+  letter-spacing: 0.02em; 
+  color: #2e2f42; 
 }
+
 .item-title {
 color: #2e2f42;
 font-family: Roboto;
