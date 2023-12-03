@@ -59,7 +59,6 @@ color: #404bbf;
 
 .main-sec {
 background-color: #2e2f42;
-
 }
 
 .address {
@@ -75,6 +74,7 @@ color: #404bbf;
 .address:focus {
 color: #404bbf;
 }
+
 .contacts {
 color:  #434455;
 font-family: Roboto;
